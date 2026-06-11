@@ -7,25 +7,31 @@ I am currently building applied AI tools for technical support, scientific workf
 ## Current focus
 
 - Applied AI agents for technical and scientific workflows
-- MedTech support automation and service triage
-- Python, Streamlit and LLM-assisted applications
+- MedTech support automation, service triage and support operations analytics
+- Python, Streamlit, pandas and LLM-assisted applications
 - Optical systems, biomedical diagnostics and technical product development
 
 ## Featured project
 
 ### MedTech Technical Support Assistant
 
-A prototype support assistant for MedTech device issue triage.
+A prototype support workflow tool for MedTech device issue triage and service-ticket analytics.
 
-The tool takes a device issue description and generates a structured support report, including:
+The app combines a structured triage assistant with a service-ticket dashboard. It demonstrates how domain-specific MedTech support logic can be turned into a simple deployed web application.
 
-- issue classification
-- severity estimate
+Current features include:
+
+- device type selection
+- device-aware issue classification
+- severity estimation
 - escalation recommendation
 - human review flag
-- customer questions
+- customer follow-up questions
 - safe first-level troubleshooting steps
-- internal service note
+- copyable and downloadable internal service note
+- synthetic service-ticket dataset
+- dashboard metrics for support operations
+- charts by device type, severity, and human review requirement
 
 Live demo: https://medtech-ai-support-agent-v1.streamlit.app
 
